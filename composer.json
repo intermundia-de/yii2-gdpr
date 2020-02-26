@@ -1,0 +1,21 @@
+{
+    "name": "intermundia/yii2-gdpr",
+    "description": "it saves hashed email with timestamp into the database",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gdpr"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guga Grigolia",
+            "email": "guga@intermundia.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "intermundia\\gdpr\\": ""
+        }
+    }
+}
